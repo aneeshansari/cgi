@@ -1,0 +1,78 @@
+    1  mkdir apple
+    2  cd apple/
+    3  vi docker-compose.yaml
+    4  cat docker-compose.yaml 
+    5  cat docker-compose.yaml 
+    6  docker-compose up -d
+    7  docker-compose ls
+    8  docker-compose ps
+    9  docker-compose ps -a
+   10  docker-compose logs apple-mysql-1
+   11  docker-compose logs apple
+   12  docker-compose logs amysql
+   13  docker-compose logs mysql
+   14  ls
+   15  docker-compose down 
+   16  vi docker-compose.yaml 
+   17  docker-compose up -d
+   18  docker-compose ls
+   19  docker-compose ps
+   20  ls
+   21  cd data/
+   22  ls
+   23  docker-compose down
+   24  docker-compose down
+   25  ls
+   26  cd 
+   27  cd apple/
+   28  docker-compose down
+   29  ls
+   30  docker-compose down 
+   31  vi docker-compose.yaml 
+   32  docker-compose down 
+   33  vi docker-compose.yaml 
+   34  docker-compose down 
+   35  vi docker-compose.yaml 
+   36  docker-compose up -d
+   37  docker-compose ps
+   38  docker-compose ps -a
+   39  docker-compose logs mysql
+   40  docker-compose down 
+   41  ls
+   42  cd data/
+   43  ls
+   44  rm -rf *
+   45  ls
+   46  cd ..
+   47  ls
+   48  docker-compose up -d
+   49  docker-compose ps
+   50  docker-compose ps -a
+   51  docker-compose logs mysql
+   52  ls
+   53  rm -rf data/
+   54  docker-compose down 
+   55  docker-compose up -d
+   56  docker-compose ps
+   57  docker-compose ps -a
+   58  docker-compose logs mysql
+   59  docker-compose down 
+   60  docker volume ls
+   61  docker volume rm apple_mydata 
+   62  docker volume ls -aq
+   63  docker volume ls -q
+   64  docker volume rm $(docker volume ls -q)
+   65  docker-compose up -d
+   66  docker-compose ps
+   67  docker-compose down 
+   68  vi docker-compose.yaml 
+   69  ls
+   70  docker-compose up -d
+   71  docker-compose ps
+   72  docker-compose ps -a
+   73  vi docker-compose.yaml 
+   74  docker-compose down
+   75  docker-compose up -d
+   76  docker-compose ps
+   77  docker volume ls
+   78  history > docker-compose-cmd.txt
