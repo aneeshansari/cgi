@@ -1,3 +1,13 @@
+FROM ubuntu:22.04
+RUN apt update && apt install apache2 -y
+ADD app.tar /var/www/html
+WORKDIR /var/www/html
+EXPOSE 80
+CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+
+
+
+
 # Step 1: Download the website template archive
 wget https://templatemo.com/download/templatemo_591_villa_agency
 
