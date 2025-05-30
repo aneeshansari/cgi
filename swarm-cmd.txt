@@ -1,0 +1,40 @@
+   13  mkdir app
+   14  cd app/
+   15  vi docker-compose.yaml
+   16  docker stack ls
+   17  docker stack deploy -c docker-compose.yaml wordpress
+   18  vi docker-compose.yaml
+   19  docker stack deploy -c docker-compose.yaml wordpress
+   20  docker stack ls
+   21  vi docker-compose.yaml
+   22  docker stack deploy -c docker-compose.yaml wordpress
+   23  docker stack ls
+   24  docker stack ps wordpress
+   25  docker stack services  wordpress
+   26  vi docker-compose.yaml
+   27  docker stack ls
+   28  docker service ps
+   29  docker service ps wordpress
+   30  docker service logs wordpress
+   31  docker stack rm wordpress
+   32  docker stack deploy -c docker-compose.yaml wordpress
+   33  vi docker-compose.yaml
+   34  docker nodes ls
+   35  docker node ls
+   36  vi docker-compose.yaml
+   37  docker stack ls
+   38  docker stack rm wordpress
+   39  docker stack deploy -c docker-compose.yaml wordpress
+   40  vi docker-compose.yaml
+   41  docker stack deploy -c docker-compose.yaml wordpress
+   42  vi docker-compose.yaml
+   43  docker stack deploy -c docker-compose.yaml wordpress
+   44  vi docker-compose.yaml
+   45  docker stack deploy -c docker-compose.yaml wordpress
+   46  vi docker-compose.yaml
+   47  docker stack deploy -c docker-compose.yaml wordpress
+   48  docker stack ls
+   49  docker stack services wordpress
+   50  docker stack services ps wordpress
+   51  docker stack  ps wordpress
+   52  vi docker-compose.yaml
